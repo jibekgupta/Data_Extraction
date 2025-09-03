@@ -17,7 +17,7 @@ pip install selenium beautifulsoup4 webdriver-manager
 ```
 ***
 ## How It Works
-1. The scraper navigates to the EdSurge Index website's product page: https://index.edsurge.com/products.
+1. The scraper navigates to the EdSurge Index website's product page: [https://index.edsurge.com/products](https://edtechindex.org/).
 2. It extracts product names from the list of products on each page.
 3. The script navigates through multiple pages by clicking on the 'Next' button, handling different variations of the button.
 4. The scraper continues to extract product names until it reaches the maximum number of pages or encounters a page without a 'Next' button.
